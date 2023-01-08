@@ -1,0 +1,2 @@
+Unfortunately couldn’t work out on the python files and so did everything on the Jupiter file. Will use the python files from next homework.
+First open check this, if it doesn't work then open hw1.ipyn file
