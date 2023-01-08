@@ -1,0 +1,69 @@
+\documentclass[a4paper,twoside,10pt]{article}
+
+\def \RR {{\mathbb R}}
+\def \NN {{\mathbb N}}
+\def \ZZ {{\mathbb Z}}
+\def \TT {{\mathbb T}}
+\def \mcA {{\mathcal A}}
+\def \mcB {{\mathcal B}}
+\def \mcC {{\mathcal C}}
+\def \mcI {{\mathcal I}}
+
+
+%%% --------------------------------------------------------------
+\usepackage[UKenglish]{babel} %francais, polish, spanish, ...
+%\usepackage[T1]{fontenc}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{commath}
+\usepackage[shortlabels]{enumitem}
+
+%\usepackage[moderate]{savetrees}
+\usepackage[margin=0.65in]{geometry}
+
+\usepackage{multicol}
+%%% --------------------------------------------------------------
+\newcommand{\diag}{\mbox{\rm diag}} % diag
+\addtolength{\abovedisplayskip}{-0.8cm}
+\addtolength{\belowdisplayskip}{-0.8cm}
+\addtolength{\intextsep}{-0.2cm}
+
+%%% --------------------------------------------------------------
+
+
+\begin{document}
+
+\title{Homework 6 - Object detection and classification \\ Computer Vision - Fall 2022}
+\author{Prof. Dr. Francesco Maurelli, Jacobs University Bremen}
+%\date{Handed out 19.09.2018, due 26.09.2018 23:59:59}
+\date{}
+
+\maketitle
+
+\section{General}
+In class we have looked at the general pipeline for object detection and classification, and we looked at some algorithms in more details. In this homework, you can choose to either implement one of those algorithms or to use available libraries like \texttt{yolo}. The task is to use machine learning techniques to identify features on the Moon surface. We will use the public challenge at \url{https://exploredatachallenges.space/index.php/2022-lunar-challenges/senior/}.
+
+\section{The Task}
+The core of the challenge is the use of machine learning techniques to identify specific geomorphological features on the Archytas Dome on the Moon. The public challenge is composed by three steps. The homework is only related to the first two steps, as the third one is not CV-related.
+
+\section{Submission}
+There are two different submissions:
+\begin{itemize}
+\item normal HW submission, with MsTeams, for the HW assignment (the important one for the class). For this, Step 1 and Step 2 are important.
+\item submission for the competition, following the instructions on the website. For this, also Step 3 is important, but it is independent of the homework assignment.
+\end{itemize}
+Whilst you want to submit anyway for the homework submission, in order to try to get points, even if very few, you may want to be more selective when submitting internationally.
+
+\section{Deadlines}
+As always indicated, submission deadlines are strict. In case the competition will accept later submissions, this does not grant extension for the homework submission - you can submit two different sets of results for the hw and for the competition.
+
+\section{Other competition tasks}
+Step 3 is related to (autonomous) path planning, so it is not part of the homework in this class. If you are interested in participating in the overall challenge, you are encouraged to work also on this Step.
+
+
+\end{document}
